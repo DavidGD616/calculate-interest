@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./interest.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <title>Simple interest and compound interest</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <h1>
+                Differences between simple interest 💰 and compound interest 📈🤑
+            </h1>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="wrapper">
+            <div class="content__p">
+                <p>
+                    Now I will show you in a simple way why the compound interest is very awesome.
+                    Here you will have a camparison between 2 types of investors, both will give you more money at the end of the time period.
+                    When more longer time you hold and more money have inveted, more bigger going to be the differences.
+                </p>
+            </div>
+            <div class="content__labels">
+                <form action="">
+                    <label for="InputMoney">Enter the amount of money that you will invest</label>
+                    <input id="InputMoney" type="number">
+                    <label for="InputYears">Enter the years that you are going to hold the money</label>
+                    <input id="InputYears" type="number">
+                    <label for="InputInterest">Enter the interest rate</label>
+                    <input id="InputInterest" type="number">
+                    <button type="button" onclick="calculateInvestment()">Calculate Investment</button>
+                </form>
+                <p id="result"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./interest.js"></script>
+</body>
+</html>
